@@ -1,0 +1,16 @@
+.login-view {
+    -fx-spacing: 0px;
+}
+
+.login-view .left-content {
+    -fx-background-color: white;
+}
+
+.login-view .right-content {
+    -fx-background-color: red;
+}
+
+.login-view .right-content .hello-lbl {
+    -fx-text-fill: white;
+    -fx-font-size: 25px;
+}
