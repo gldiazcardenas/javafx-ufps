@@ -5,14 +5,15 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
 
-<fx:root styleClass="login-view" type="VBox" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml">
+<fx:root styleClass="login-view" type="VBox" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+fx:controller="co.gldc.javafx.ufpsdemo.view.LoginView">
 
     <VBox styleClass="left-content">
-        <TextField text="Gabriel" />
+        <TextField fx:id="myTextField" text="Gabriel" />
     </VBox>
 
     <VBox styleClass="right-content">
-        <Label styleClass="hello-lbl" text="Hello JavaFX!" />
+        <Label fx:id="myLabel" styleClass="hello-lbl" text="Hello JavaFX!" />
     </VBox>
 
 </fx:root>
